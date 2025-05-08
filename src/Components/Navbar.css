@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+    align-items: center;
+    background-color: rgb(4, 4, 78);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+.Navbar a{
+    text-decoration: none;
+    color: white;
+}
+#AppName{
+    color: lightseagreen;
+}
+.Dashboard_h3{
+    padding: 6px;
+    cursor: pointer;
+}
+.Dashboard_h3:hover{
+    text-decoration: underline;
+    color: orangered;
+    box-shadow: 5px 5px 5px orangered;
+}
+.MyStudents_h3{
+    padding: 6px;
+}
+.MyStudents_h3:hover{
+    text-decoration: underline;
+    color: orangered;
+    box-shadow: 5px 5px 5px orangered;
+}
+.Requests_h3{
+    padding: 6px;
+    cursor: pointer;
+}
+/* .Call:hover{
+    text-decoration: underline;
+    color: orangered;
+    box-shadow: 5px 5px 5px orangered;
+}
+.Call{
+    padding: 6px;
+} */
+.Requests_h3:hover{
+    text-decoration: underline;
+    color: orangered;
+    box-shadow: 5px 5px 5px orangered;
+}
+.Schedules_h3{
+    padding: 6px;
+}
+.Schedules_h3:hover{
+    text-decoration: underline;
+    color: orangered;
+    box-shadow: 5px 5px 5px orangered;
+}
+.Account_OwnerName{
+    color: lightseagreen;
+    padding: 5px;
+}
+.Account_OwnerName:hover{
+    color: white;
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px white;
+}
+/* .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px orangered;
+    padding: 30px;
+    margin: 30px;
+    max-width: 250px;
+    display: inline-block;
+} */
