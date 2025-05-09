@@ -13,6 +13,7 @@ const Navbar = () => {
                 <h2>Schools<span id='AppName'>Together</span></h2>
                 <li className='Navbar'>
                     <Link to='/'><h3 className="Dashboard_h3"><FontAwesomeIcon icon={faTableCells} /> Dashboard</h3></Link>
+                    <Link to='/profile'><h3 className="Dashboard_h3"><FontAwesomeIcon icon={faTableCells} /> Profile</h3></Link>
                     <a href=""><h3 className="MyStudents_h3"><FontAwesomeIcon icon={faUserGroup} /> My students</h3></a>
                     <a href=""><h3 className="Requests_h3"><FontAwesomeIcon icon={faBell} /> Requests</h3></a>
                     <a href=""><h3 className="Schedules_h3"><FontAwesomeIcon icon={faCalendarDays} />  Schedule</h3></a>
