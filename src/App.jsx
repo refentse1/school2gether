@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Bashboard_content from './Components/Bashboard_content'
 import VideoEmbedded from './Components/CallPage'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ProfilePage from './Components/ProfilePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/Contacts" element={<VideoEmbedded />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/" element={<Bashboard_content/>} />
         </Routes>
         
